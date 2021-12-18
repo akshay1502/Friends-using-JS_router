@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #86dc3d;
+  height: 64px;
+}
+
+nav ul li a:hover, .active {
+  color: #378805;
+}
+
+nav ul li a {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
