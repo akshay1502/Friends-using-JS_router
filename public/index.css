@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+nav {
+  height: 10vh;
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -22,4 +25,18 @@ nav ul li a {
   font-weight: 700;
   color: white;
   text-decoration: none;
+}
+#friends {
+  display: flex;
+  height: 90vh;
+}
+#friendsPhoto {
+  background-image: url('images/final3.jpg');
+  /* height: 500px; */
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.friendsPara {
+  width: 50%;
 }
