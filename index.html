@@ -10,29 +10,35 @@
 <body>
   <nav>
     <ul>
-      <li><a href="/" onclick="router(event)">Home</a></li>
-      <li><a href="/about" onclick="router(event)">About</a></li>
-      <li><a href="/contact" onclick="router(event)">Contact</a></li>
-      <li><a href="/tutorial" onclick="router(event)">Tutorial</a></li>
+      <li class="friendsNav"><a href="/" onclick="router(event)">FRIENDS</a></li>
+      <li><a href="/chandlerBing" onclick="router(event)"><img src="images/faces/chandler.png" title="Chandler Bing"></a></li>
+      <li><a href="/monicaBing" onclick="router(event)"><img src="images/faces/monica.png" title="Monica Bing"></a></li>
+      <li><a href="/joeyTribbiani" onclick="router(event)"><img src="images/faces/joey.png" title="Joey Tribbiani"></a></li>
+      <li><a href="/phoebebuffay" onclick="router(event)"><img src="images/faces/phoebe.png" title="Phoebe Buffay"></a></li>
+      <li><a href="/rossGellar" onclick="router(event)"><img src="images/faces/ross.png" title="Roass Gellar"></a></li>
+      <li><a href="/rachelGreen" onclick="router(event)"><img src="images/faces/rachel.png" title="Rachel Green"></a></li>
     </ul>
   </nav>
 
   <div id="root">
     <div id="friends">
-      <div id="friendsPhoto">
-        <!-- <img src="images\final2.webp" width="500px" height="500px"> -->
+      <div class="friendsPhoto">
+        <img src="images\final3.jpg">
       </div>
       <div class="friendsPara">
         <p>FRIENDS</p>
-        <P>Friends is an American television sitcom created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994,
-          to May 6, 2004, lasting ten seasons, comes up constantly as one of the most popular shows in the era of streaming content.With 
-          an ensemble cast starring Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry and David Schwimmer, the show 
-          revolves around six friends in their 20s and 30s who live in Manhattan, New York City.
+        <P>Friends is an American television sitcom created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994, to May 6, 2004, 
+          lasting ten seasons, comes up constantly as one of the most popular shows in the era of streaming content.With an ensemble cast starring 
+          <a href="https://en.wikipedia.org/wiki/Jennifer_Aniston">Jennifer Aniston</a> as <i>Rachel Green</i>, <a href="https://en.wikipedia.org/wiki/Courteney_Cox">
+          Courteney Cox</a> as <i>Monica Bing</i>, <a href="https://en.wikipedia.org/wiki/Lisa_Kudrow">Lisa Kudrow</a> as <i>Phoebe Buffay</i>, 
+          <a href="https://en.wikipedia.org/wiki/Matt_LeBlanc">Matt LeBlanc</a> as <i>Joey Tribbiani</i>, <a href="https://en.wikipedia.org/wiki/Matthew_Perry">Matthew
+           Perry</a> as <i>Chandler Bing</i> and <a href="https://en.wikipedia.org/wiki/David_Schwimmer">David Schwimmer</a> as <i>Ross Geller</i>, the show revolves around 
+           six friends in their 20s and 30s who live in Manhattan, New York City.
         </P>
       </div>
     </div>
   </div>
   
-  <!-- <script src="./router.js"></script> -->
+  <script src="./router.js"></script>
 </body>
 </html>
